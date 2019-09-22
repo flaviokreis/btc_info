@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">BtcInfo</string>
+
+    <string name="market_prices">Preços de Mercado (USD)</string>
+    <string name="block_summary">Sumário do bloco</string>
+    <string name="blocks_mined">Blocos minerados</string>
+    <string name="minutes_between_blocks">Tempo entre blocos</string>
+    <string name="bitcoins_mined">Bitcoins Minerados</string>
+
+    <string name="market_summary">Resumo do mercado</string>
+    <string name="market_price">Preço de mercado</string>
+    <string name="trade_volume_usd">Volume de troca (USD)</string>
+    <string name="trade_volume_btc">Volume de troca (BTC)</string>
+
+    <string name="transaction_summary">Sumário de transações</string>
+    <string name="total_fees_btc">Total de Taxas de Transação (BTC)</string>
+    <string name="number_of_transactions">Número de Transações</string>
+    <string name="total_btc_sent">Valor Total de Saída (BTC)</string>
+    <string name="estimated_btc_sent">Volume Estimado de Transações (BTC)</string>
+    <string name="estimated_usd_sent">Volume Estimado de Transações (USD)</string>
 </resources>
