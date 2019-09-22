@@ -1,8 +1,13 @@
 package br.com.flaviokreis.btcinfo.models
 
 import com.google.gson.annotations.SerializedName
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
 
+@Entity
 data class BitcoinStats(
+    @Id(assignable = true) var _id: Long = 1,
+
     @SerializedName("market_price_usd")
     val marketPriceUsd: Double = 0.0,
 

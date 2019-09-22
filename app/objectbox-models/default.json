@@ -1,0 +1,146 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2229640936571084348",
+      "lastPropertyId": "21:8353543775968376153",
+      "name": "BitcoinStats",
+      "properties": [
+        {
+          "id": "1:7617123409103643096",
+          "name": "_id"
+        },
+        {
+          "id": "2:4171472732334284337",
+          "name": "marketPriceUsd"
+        },
+        {
+          "id": "3:2576205450032429888",
+          "name": "hashRate"
+        },
+        {
+          "id": "4:7255859930838071232",
+          "name": "totalFeesBtc"
+        },
+        {
+          "id": "5:3357504751307001152",
+          "name": "nBtcMined"
+        },
+        {
+          "id": "6:6405272047205785287",
+          "name": "nTx"
+        },
+        {
+          "id": "7:3812624385040897014",
+          "name": "nBlocksMined"
+        },
+        {
+          "id": "8:1717813468047125076",
+          "name": "minutesBetweenBlocks"
+        },
+        {
+          "id": "9:9123619517320619749",
+          "name": "totalbc"
+        },
+        {
+          "id": "10:5699836957443730012",
+          "name": "nBlocksTotal"
+        },
+        {
+          "id": "11:9085277310215808539",
+          "name": "estimatedTransactionVolumeUsd"
+        },
+        {
+          "id": "12:9059753935775882548",
+          "name": "blocksSize"
+        },
+        {
+          "id": "13:1427497378325317605",
+          "name": "minersRevenueUsd"
+        },
+        {
+          "id": "14:1732430470626873404",
+          "name": "nextTreTarget"
+        },
+        {
+          "id": "15:397086962891985214",
+          "name": "difficulty"
+        },
+        {
+          "id": "16:6423818619244151230",
+          "name": "estimatedBtcSent"
+        },
+        {
+          "id": "17:5388481322595810362",
+          "name": "minersRevenueBtc"
+        },
+        {
+          "id": "18:8825812953667539557",
+          "name": "totalBtcSent"
+        },
+        {
+          "id": "19:675998536303802257",
+          "name": "tradeVolumeBtc"
+        },
+        {
+          "id": "20:3508950802612137659",
+          "name": "tradeVolumeUsd"
+        },
+        {
+          "id": "21:8353543775968376153",
+          "name": "timestamp"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:9137650677810200128",
+      "lastPropertyId": "7:7615360458659648885",
+      "name": "BitcoinChart",
+      "properties": [
+        {
+          "id": "1:8170066245297666186",
+          "name": "_id"
+        },
+        {
+          "id": "2:2921878585071702216",
+          "name": "status"
+        },
+        {
+          "id": "3:7206595026222524892",
+          "name": "name"
+        },
+        {
+          "id": "4:8429320366431242058",
+          "name": "unit"
+        },
+        {
+          "id": "5:2686493822177303462",
+          "name": "period"
+        },
+        {
+          "id": "6:1800693238980329314",
+          "name": "description"
+        },
+        {
+          "id": "7:7615360458659648885",
+          "name": "values"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:9137650677810200128",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
