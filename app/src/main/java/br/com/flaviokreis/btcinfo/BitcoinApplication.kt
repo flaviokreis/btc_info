@@ -2,6 +2,7 @@ package br.com.flaviokreis.btcinfo
 
 import android.app.Application
 import android.content.Context
+import br.com.flaviokreis.btcinfo.database.ObjectBox
 import br.com.flaviokreis.btcinfo.middlewares.BitcoinChartMiddleware
 import br.com.flaviokreis.btcinfo.middlewares.BitcoinStatsMiddleware
 import br.com.flaviokreis.btcinfo.middlewares.DatabaseMiddleware
@@ -41,6 +42,7 @@ class BitcoinApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        ObjectBox.build(this)
         initRedukt(this, AppState(stateStarted = false)).let {
             redukt = it
         }
